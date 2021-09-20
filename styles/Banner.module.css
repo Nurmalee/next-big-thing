@@ -1,0 +1,113 @@
+@keyframes typing {
+    from {
+      width: 0
+    }
+}
+      
+@keyframes blink {
+    50% {
+      border-color: transparent
+    }
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 90px 0 60px 0;
+    text-align: center;
+    width: 90vw;
+    max-width: 1350px;
+    margin: 0 auto;
+    /* min-height: 95vh; */
+}
+
+.container > h1 {
+    font-size: 2.25rem;
+    line-height: 1;
+}
+
+.container > h1:nth-of-type(2) {
+    background: -webkit-linear-gradient(#9c3eb6, #C33364);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container > p {
+    font-size: 1.2rem;
+    margin-top: 35px;
+    width: 95%;
+}
+
+.buttons {
+    margin-top: 35px;
+    display: grid;
+    gap: 15px;
+}
+
+.buttons button {
+    padding: 20px 65px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.buttons button:first-of-type {
+    color: #C33364;
+    background-color: #fff;
+}
+
+
+.buttons button:first-of-type:hover {
+    background-color: #eee;
+}
+
+.buttons button:nth-of-type(2) {
+    color: #fff;
+    background-color: #C33364;
+}
+
+.buttons button:nth-of-type(2):hover {
+    background-color: #b82455;
+}
+
+@media screen and (min-width: 768px) {
+    .container > p {
+        width: 60%;
+    }
+
+    .container > h1:nth-of-type(1) {
+        width: 14ch;
+        animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+        white-space: nowrap;
+        word-wrap: break-word;
+        overflow: hidden;
+        border-right: 3px solid;
+    }
+
+    .buttons {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .buttons button {
+        width: fit-content;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container > h1 {
+        font-size: 3.75rem;
+    }
+
+    .container > p {
+        font-size: 1.4rem;
+    }
+}
