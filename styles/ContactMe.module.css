@@ -1,0 +1,87 @@
+.Container {
+    background-color: whitesmoke;
+}
+
+.Content {
+    width: 90vw;
+    max-width: 1000px;
+    margin: 0 auto;
+    /* margin-top: 50px; */
+    flex: 1;
+    padding: 100px 0;
+    color: #0f2948;
+}
+
+.Content > h1 {
+    color: #C33364;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.Content > h1 > span {
+    display: block;
+}
+
+.Content > p {
+    font-size: 1.2rem;
+    width: 95%;
+    text-align: center;
+    margin: 35px auto;
+    margin-bottom: 45px;
+    /* font-family: 'Abel', sans-serif; */
+}
+
+.Content form {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.Content form div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.Content form div label {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: none;
+}
+
+.Content form div input, .Content form div textarea {
+    padding: 7px 10px;
+    font-size: 18px;
+    border: 2px solid #C33364;
+    outline: none;
+}
+
+.Content form div input::placeholder , .Content form div textarea::placeholder {
+    text-transform: uppercase;
+}
+.Content form button {
+    padding: 15px 65px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    border-bottom-right-radius: 10px;
+    background-color: #0f2948;
+    border: 2px solid #C33364;
+    color: white;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .Content form {
+        width: 67%;
+    }
+}

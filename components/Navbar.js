@@ -1,11 +1,14 @@
-import MenuIcon from '@material-ui/icons/Menu';
+import { Menu, Close } from '@material-ui/icons';
 import { useRef, useEffect, useState } from 'react'
+
+const navListLinks = ['home','services','technologies','projects','contact',]
 
 const Navbar = () => {
     
     const listWrapperRef = useRef()
     const listRef = useRef()
     const [ navIsOpen, setNavIsOpen ] = useState(false)
+    const [ active, setActive ] = useState(0)
 
     useEffect(() => {
         const listHeight = listRef.current.getBoundingClientRect().height
@@ -16,20 +19,26 @@ const Navbar = () => {
         }
     }, [navIsOpen])
 
+    const activeStyle = {
+        backgroundColor: '#C33364',
+        color: 'white'
+    } 
+
     return (
         <nav>
             <div>
                 <h2> TheLeeEffect </h2>
-                <MenuIcon onClick={() => setNavIsOpen(!navIsOpen)} />
+                { navIsOpen ? <Close onClick={() => setNavIsOpen(!navIsOpen)} /> : <Menu onClick={() => setNavIsOpen(!navIsOpen)} /> }
             </div>
 
             <div ref={listWrapperRef}>
                 <ul ref={listRef}>
-                    <li> Home </li>
-                    <li> About </li>
-                    <li> Services </li>
-                    <li> Projects </li>
-                    <li> Contact Me </li>
+                    {navListLinks.map((link, index) => {
+                        return (
+                            <li key={index} onClick={() => setActive(index)}> <a href={`#${link}`} style={index === active ? activeStyle : {}}> {link} </a> </li>
+                        )
+                    }
+                    )}
                 </ul>
             </div>
         </nav>

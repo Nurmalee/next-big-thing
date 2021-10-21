@@ -1,0 +1,57 @@
+.Container {
+    width: 90vw;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 100px 0;
+    color: white;
+    text-align: center;
+}
+
+.Container > h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.Container > p {
+    font-size: 1.2rem;
+    width: 95%;
+    text-align: center;
+    margin: 35px auto;
+    margin-bottom: 45px;
+    /* font-family: 'Abel', sans-serif; */
+}
+
+.Container footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Container footer a {
+    margin: 0 10px;
+}
+
+.Container footer a button {
+    background-color: transparent;
+    padding: 15px;
+    border: 2px solid white;
+}
+
+.Container footer a button:hover {
+    background-color: whitesmoke;
+}
+
+.Icon {
+    color: white;
+}
+
+.Container footer a button:hover .Icon {
+    color: #C33364;
+}
+
+.Container > p:nth-of-type(2) {
+    margin-top: 45px;
+    margin-bottom: 0;
+}

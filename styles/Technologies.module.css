@@ -1,0 +1,50 @@
+.Container {
+    background-color: whitesmoke;
+}
+
+.Content {
+    width: 90vw;
+    max-width: 1000px;
+    margin: 0 auto;
+    /* margin-top: 50px; */
+    flex: 1;
+    padding: 100px 0;
+    color: #0f2948;
+}
+
+.Content > h1 {
+    color: #C33364;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.Content > p {
+    font-size: 1.2rem;
+    width: 95%;
+    text-align: center;
+    margin: 35px auto;
+    margin-bottom: 45px;
+    /* font-family: 'Abel', sans-serif; */
+}
+
+.TechnologyCardContainer {
+    margin: 20px auto 0 auto;
+    display: grid;
+    grid-gap: 15px;
+}
+
+@media screen and (min-width: 550px) {
+    .Content > h1 {
+        font-size: 30px;
+    }
+
+    .TechnologyCardContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .TechnologyCardContainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
