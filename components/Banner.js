@@ -11,7 +11,7 @@ const Banner = () => {
                 <p> Imagination is good, but what cuts it is the actualization of possibilities. Cooking up ideas never felt better. Let&apos;s build </p>
 
                 <div className={styles.buttons}>
-                    <a href="https://drive.google.com/file/d/15rpwITOju_WDLrcLb4RVsNgbdi2smFti/view?usp=sharing" download target="_blank" rel="noreferrer"> download my CV <CloudDownload style={{marginLeft: "10px"}} /> </a>
+                    <a href="https://drive.google.com/file/d/1QfsqFUvw1tn3LnbFYlM27c5EO8gD4h8_/view?usp=sharing" download target="_blank" rel="noreferrer"> download my CV <CloudDownload style={{marginLeft: "10px"}} /> </a>
                     <a href="#projects"> view projects <ArrowRightAlt style={{marginLeft: "10px"}} /> </a>
                     {/* <button> view projects <ArrowRightAltIcon /> </button> */}
                 </div>
