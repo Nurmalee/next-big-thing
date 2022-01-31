@@ -23,10 +23,10 @@ export const navList = [
         title: 'works/projects',
         href: '#projects'
     },
-    {
-        title: 'contact me',
-        href: '#contactme'
-    }
+    // {
+    //     title: 'contact me',
+    //     href: '#contactme'
+    // }
 ]
 
 export const bannerList = [
@@ -114,10 +114,10 @@ export const techList = [
         title: 'Bootstrap',
         Icon: FaBootstrap,
     },
-    {
-        title: 'jQuery',
-        Icon: DiJqueryLogo,
-    },
+    // {
+    //     title: 'jQuery',
+    //     Icon: DiJqueryLogo,
+    // },
     {
         title: 'Adobe illustrator & CorelDraw',
         Icon: SiAdobeillustrator,
@@ -130,11 +130,11 @@ export const techList = [
 
 export const projectList = [
     {
-        imageUrl: '/images/works/moviesNow.PNG',
-        title: 'moviesNow.se',
-        desc: 'A movie platform utilising the IMDB database to render various categories/genres of movies',
-        type: 'next js',
-        link: "https://moviesnow-se.vercel.app/"
+        imageUrl: '/images/works/Service_School_House.PNG',
+        title: 'Service School House',
+        desc: 'A training services platform designed to help organizations empower their contact center staff to provide outstanding customer service',
+        type: 'react js',
+        link: "https://learningplatform.sandbox.9ijakids.com/"
     },
     {
         imageUrl: '/images/works/nimdee_project.PNG',
@@ -142,6 +142,13 @@ export const projectList = [
         desc: 'An educational platform that provides students (of junior school level), schools and parents with thousands of worksheets and other learning materials',
         type: 'react js',
         link: "https://nimdee.com"
+    },
+    {
+        imageUrl: '/images/works/moviesNow.PNG',
+        title: 'moviesNow.se',
+        desc: 'A movie platform utilising the IMDB database to render various categories/genres of movies',
+        type: 'next js',
+        link: "https://moviesnow-se.vercel.app/"
     },
     // {
     //     imageUrl: '/images/works/formplus_templates.JPG',
@@ -180,13 +187,13 @@ export const projectList = [
         type: 'react js',
         link: "https://instagramlee.herokuapp.com"
     },
-    {
-        imageUrl: '/images/works/facebook_clone.JPG',
-        title: 'facebook (clone)',
-        desc: 'A clone of the web version of my personal facebook landing page',
-        type: 'react js',
-        link: "https://nurmalee.github.io/facebook-webapp-clone/"
-    },
+    // {
+    //     imageUrl: '/images/works/facebook_clone.JPG',
+    //     title: 'facebook (clone)',
+    //     desc: 'A clone of the web version of my personal facebook landing page',
+    //     type: 'react js',
+    //     link: "https://nurmalee.github.io/facebook-webapp-clone/"
+    // },
     // {
     //     imageUrl: '/images/works/My-Porsche-Garage-Landing-Page.JPG',
     //     title: 'porsche garage',

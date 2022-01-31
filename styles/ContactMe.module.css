@@ -2,20 +2,20 @@
     background-color: whitesmoke;
 }
 
-.Content {
+/* .Content {
     width: 90vw;
     max-width: 1000px;
     margin: 0 auto;
-    /* margin-top: 50px; */
     flex: 1;
     padding: 100px 0;
     color: #0f2948;
-}
+} */
 
 .Content > h1 {
     color: #C33364;
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-align: center;
+    font-size: 20px;
 }
 
 .Content > h1 > span {
@@ -53,35 +53,44 @@
 }
 
 .Content form div input, .Content form div textarea {
-    padding: 7px 10px;
-    font-size: 18px;
+    padding: 5px 10px;
+    font-size: 15px;
     border: 2px solid #C33364;
+    border-radius: 5px;
     outline: none;
 }
 
 .Content form div input::placeholder , .Content form div textarea::placeholder {
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
+
 .Content form button {
-    padding: 15px 65px;
-    border-radius: 2px;
+    padding: 7px 20px;
     display: flex;
     align-items: center;
     outline: none;
     text-transform: uppercase;
     cursor: pointer;
     font-size: 16px;
-    font-weight: 600;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
-    border-bottom-right-radius: 10px;
+    border: none;
+    border-radius: 3px;
     background-color: #0f2948;
-    border: 2px solid #C33364;
     color: white;
     margin-top: 20px;
 }
 
+.Content form button:hover {
+    background-color: #C33364;
+}
+
 @media screen and (min-width: 768px) {
-    .Content form {
-        width: 67%;
+    .Content > h1 {
+        font-size: 25px;
+    }
+
+    .Content form div input, .Content form div textarea {
+        padding: 7px 10px;
+        font-size: 18px;
     }
 }
