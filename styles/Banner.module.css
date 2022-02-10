@@ -34,7 +34,8 @@
     width: 90vw;
     max-width: 1350px;
     margin: 0 auto;
-    min-height: 90vh;
+    height: 90vh;
+    min-height: 700px;
 }
 
 .content > h1 {
