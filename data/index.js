@@ -134,7 +134,7 @@ export const projectList = [
         title: 'Service School House',
         desc: 'A training services platform designed to help organizations empower their contact center staff to provide outstanding customer service',
         type: 'react js',
-        link: "https://learningplatform.sandbox.9ijakids.com/"
+        link: "https://serviceschoolhouse.com/"
     },
     {
         imageUrl: '/images/works/nimdee_project.PNG',
