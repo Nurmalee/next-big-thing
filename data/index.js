@@ -78,7 +78,7 @@ export const projects = [
 		isPrivate: false,
 	},
 	{
-		img: '/images/works/moviesnow-3.PNG',
+		img: '/images/works/moviesnow.PNG',
 		title: 'Movies Now',
 		desc: 'This is a platform utilising the IMDB database to render various categories/genres of movies',
 		stacks: ['react', 'next', 'styled components'],
