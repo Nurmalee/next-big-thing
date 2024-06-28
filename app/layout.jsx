@@ -1,5 +1,5 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
 import './globals.css'
+// import 'bootstrap/dist/css/bootstrap.min.css'
 
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
 		<html lang='en'>
 			<body>
 				<Navbar />
-				<main>{children}</main>
+				<main className='bg-white'>{children}</main>
 				<Footer />
 			</body>
 		</html>
