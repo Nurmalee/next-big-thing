@@ -2,9 +2,18 @@ import { ArrowOutward, GitHub } from '@mui/icons-material'
 import { stackBgs, projects } from '../data'
 import Image from 'next/image'
 
-const Project = ({ title, desc, img, link, stacks, gradient, isPrivate }) => {
+const Project = ({
+	img,
+	live,
+	repo,
+	desc,
+	title,
+	stacks,
+	gradient,
+	isPrivate,
+}) => {
 	return (
-		<div className='even-project w-full bg-gray-100 shadow-sm rounded-lg p-5 md:p-10 dark:bg-gray-800 flex flex-col md:flex-row justify-between items-center gap-10'>
+		<div className='even-project w-full bg-gray-100 shadow-sm rounded-lg p-5 md:p-10 flex flex-col md:flex-row justify-between items-center gap-10'>
 			<div
 				style={{ backgroundImage: gradient }}
 				className='p-4 md:p-6 w-full h-full rounded-lg shadow-xl'>
@@ -33,7 +42,7 @@ const Project = ({ title, desc, img, link, stacks, gradient, isPrivate }) => {
 				</div>
 				<div className='mt-3 flex gap-2 items-center'>
 					<a
-						href={link}
+						href={live}
 						target='_blank'
 						rel='noreferrer'
 						className='px-3 py-2.5 flex gap-2 items-center font-semibold text-sm text-white rounded-tl-md rounded-bl-md bg-gray-700 hover:bg-gray-800'>
@@ -42,7 +51,7 @@ const Project = ({ title, desc, img, link, stacks, gradient, isPrivate }) => {
 
 					{!isPrivate && (
 						<a
-							href={link}
+							href={repo}
 							target='_blank'
 							rel='noreferrer'
 							className='px-3 py-2.5 flex gap-2 items-center font-semibold text-sm text-gray-800 rounded-tr-md rounded-br-md bg-slate-200 hover:bg-slate-300'>

@@ -8,15 +8,15 @@ export const tools = [
 		img: '/images/stack/typescript.webp',
 	},
 	{
-		title: 'React',
+		title: 'React.js',
 		img: '/images/stack/react.webp',
 	},
 	{
-		title: 'NextJs',
+		title: 'Next.js',
 		img: '/images/stack/nextjs.webp',
 	},
 	{
-		title: 'tailwindcss',
+		title: 'Tailwind CSS',
 		img: '/images/stack/tailwindcss.webp',
 	},
 	{
@@ -24,11 +24,11 @@ export const tools = [
 		img: '/images/stack/shadcn.webp',
 	},
 	{
-		title: 'NodeJs',
+		title: 'Node.js',
 		img: '/images/stack/node.webp',
 	},
 	{
-		title: 'Postgres',
+		title: 'Postgres Sql',
 		img: '/images/stack/postgresql.webp',
 	},
 	{
@@ -55,7 +55,7 @@ export const projects = [
 		title: 'Service School House',
 		desc: `This platform offers comprehensive courses and training programs to organizations, enhancing their contact center staff's skills to deliver exceptional customer service.`,
 		stacks: ['react', 'react query', 'redux', 'styled components'],
-		link: 'https://serviceschoolhouse.com/',
+		live: 'https://serviceschoolhouse.com',
 		gradient: 'linear-gradient(to right, #f0e2d0, #c2e0e5)',
 		isPrivate: true,
 	},
@@ -64,7 +64,7 @@ export const projects = [
 		title: 'Nimdee',
 		desc: 'An educational platform that provides students (of junior school level), schools and parents with thousands of worksheets and other learning materials',
 		stacks: ['react', 'redux', 'styled components'],
-		link: 'https://nimdee.com',
+		live: 'https://nimdee.com',
 		gradient: 'linear-gradient(to right, #343a40, #f7cac9)',
 		isPrivate: true,
 	},
@@ -73,7 +73,8 @@ export const projects = [
 		title: 'Jumia (clone)',
 		desc: 'Jumia is the most popular e-commerce website in Nigeria. This build subtly emphasizes both aesthetic appeal and functionality. It includes a fully responsive landing (shopping) UI and a comprehensive cart system that allows users to add, remove, and manage items efficiently.',
 		stacks: ['react', 'redux'],
-		link: 'https://jumiia.netlify.app',
+		live: 'https://jumiia.netlify.app',
+		repo: 'https://github.com/Nurmalee/jumia-ecommerce-clone',
 		gradient: 'linear-gradient(to right, #d3d3d3, #f9e2d0)',
 		isPrivate: false,
 	},
@@ -82,7 +83,8 @@ export const projects = [
 		title: 'Movies Now',
 		desc: 'This is a platform utilising the IMDB database to render various categories/genres of movies',
 		stacks: ['react', 'next', 'styled components'],
-		link: 'https://moviesnow-se.vercel.app/',
+		live: 'https://moviesnow-se.vercel.app',
+		repo: 'https://github.com/Nurmalee/moviesnow.se-nextjs-build',
 		gradient: 'linear-gradient(to right, #e9d6e9, #b2d0c8)',
 		isPrivate: false,
 	},
@@ -91,7 +93,8 @@ export const projects = [
 		title: 'LinkedIn (clone)',
 		desc: 'A web app clone of the most popular professional socialization platform with text post, picture upload and commenting functionalities.',
 		stacks: ['react', 'redux', 'firebase', 'styled components'],
-		link: 'https://nurmalee.github.io/linkedIn-webapp-clone/',
+		live: 'https://nurmalee.github.io/linkedIn-webapp-clone',
+		repo: 'https://github.com/Nurmalee/linkedIn-webapp-clone',
 		gradient: 'linear-gradient(to right, #c2e0e5, #d3d3d3)',
 		isPrivate: false,
 	},
@@ -106,51 +109,3 @@ export const stackBgs = {
 	next: 'skyblue',
 	'styled components': 'indigo',
 }
-
-// export const techs = [
-// 	{
-// 		title: 'HTML5',
-// 	},
-// 	{
-// 		title: 'CSS3',
-// 	},
-// 	{
-// 		title: 'Javascript',
-// 	},
-// 	{
-// 		title: 'React JS',
-// 	},
-// 	{
-// 		title: 'Next JS',
-// 	},
-// 	{
-// 		title: 'Redux',
-// 	},
-// 	{
-// 		title: 'Node JS (with MongoDB & Express)',
-// 	},
-// 	{
-// 		title: 'Firebase',
-// 	},
-// 	{
-// 		title: 'Styled-Components',
-// 	},
-// 	{
-// 		title: 'Material Ui',
-// 	},
-// 	{
-// 		title: 'Tailwind CSS',
-// 	},
-// 	{
-// 		title: 'Bootstrap',
-// 	},
-// 	{
-// 		title: 'jQuery',
-// 	},
-// 	{
-// 		title: 'Adobe illustrator & CorelDraw',
-// 	},
-// 	{
-// 		title: 'Figma',
-// 	},
-// ]
