@@ -47,7 +47,7 @@ const Footer = () => {
 					<a
 						target='_blank'
 						rel='noreferrer'
-						href='https://instagram.com/thecodedlee'>
+						href='https://www.linkedin.com/in/nurudeen-lawal-505580119'>
 						<IconButton>
 							<LinkedIn fontSize='large' className='text-white' />
 						</IconButton>

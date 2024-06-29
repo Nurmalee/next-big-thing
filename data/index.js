@@ -28,7 +28,7 @@ export const tools = [
 		img: '/images/stack/node.webp',
 	},
 	{
-		title: 'Postgres Sql',
+		title: 'PostgresSql',
 		img: '/images/stack/postgresql.webp',
 	},
 	{
@@ -36,7 +36,7 @@ export const tools = [
 		img: '/images/stack/prisma.webp',
 	},
 	{
-		title: 'My Sql',
+		title: 'MySql',
 		img: '/images/stack/my-sql.webp',
 	},
 	{
