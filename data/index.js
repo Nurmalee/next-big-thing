@@ -8,11 +8,11 @@ export const tools = [
 		img: '/images/stack/typescript.webp',
 	},
 	{
-		title: 'React.js',
+		title: 'ReactJS',
 		img: '/images/stack/react.webp',
 	},
 	{
-		title: 'Next.js',
+		title: 'NextJS',
 		img: '/images/stack/nextjs.webp',
 	},
 	{
@@ -24,7 +24,7 @@ export const tools = [
 		img: '/images/stack/shadcn.webp',
 	},
 	{
-		title: 'Node.js',
+		title: 'NodeJS',
 		img: '/images/stack/node.webp',
 	},
 	{
