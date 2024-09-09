@@ -108,7 +108,7 @@ export default function AvatarPopper() {
 											target='_blank'
 											rel='noreferrer'
 											className='text-inherit font-bricolage'
-											href='https://github.com/Nurmalee'>
+											href='https://www.linkedin.com/in/nurudeen-lawal-lee'>
 											LinkedIn
 										</a>
 									</MenuItem>
