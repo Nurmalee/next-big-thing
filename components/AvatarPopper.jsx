@@ -138,7 +138,7 @@ export default function AvatarPopper() {
 											target='_blank'
 											rel='noreferrer'
 											className='text-inherit'
-											href='https://drive.google.com/file/d/1Fo7k33QPL-uZa2i9XFWBrWhd69Q1HXVS/view?usp=sharing'>
+											href='https://drive.google.com/file/d/1tZiNMO-BlA-JhjPEaPIIDqzOaNfharkY/view?usp=sharing'>
 											My resume
 										</a>
 									</MenuItem>

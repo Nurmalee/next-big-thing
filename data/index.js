@@ -27,18 +27,18 @@ export const tools = [
 		title: 'NodeJS',
 		img: '/images/stack/node.webp',
 	},
-	{
-		title: 'PostgresSql',
-		img: '/images/stack/postgresql.webp',
-	},
-	{
-		title: 'Prisma',
-		img: '/images/stack/prisma.webp',
-	},
-	{
-		title: 'MySql',
-		img: '/images/stack/my-sql.webp',
-	},
+	// {
+	// 	title: 'PostgresSql',
+	// 	img: '/images/stack/postgresql.webp',
+	// },
+	// {
+	// 	title: 'Prisma',
+	// 	img: '/images/stack/prisma.webp',
+	// },
+	// {
+	// 	title: 'MySql',
+	// 	img: '/images/stack/my-sql.webp',
+	// },
 	{
 		title: 'Figma',
 		img: '/images/stack/figma.webp',
