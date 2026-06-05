@@ -1,12 +1,5 @@
 // tailwind.config.js
 module.exports = {
-	mode: 'jit',
-	purge: [
-		'./public/**/*.html',
-		'./src/**/*.{js,jsx,ts,tsx,vue}',
-		'./pages/**/*.{js,ts,jsx,tsx}',
-		'./components/**/*.{js,ts,jsx,tsx}',
-	],
 	content: [
 		'./app/**/*.{js,ts,jsx,tsx,mdx}',
 		'./pages/**/*.{js,ts,jsx,tsx,mdx}',
