@@ -27,7 +27,7 @@ const Intro = () => {
 					download
 					target='_blank'
 					rel='noreferrer'
-					href='https://drive.google.com/file/d/1tZiNMO-BlA-JhjPEaPIIDqzOaNfharkY/view?usp=sharing'
+					href='https://docs.google.com/document/d/1UxmcqZu5hpCoaLX7SXUDKnLoPQKq7byc0-7kmjkDr80/edit?usp=sharing'
 					className='font-bricolage shadow-xl px-7 md:px-14 py-2.5 md:py-3 flex items-center justify-center outline-none cursor-pointer font-medium rounded-tl-lg rounded-bl-lg text-[11px] md:text-[14px] text-[#b1762f] bg-gray-100 hover:text-[#0f2948]'>
 					My resume <Download className='text-lg ml-2' />
 				</a>
